@@ -1,0 +1,27 @@
+{
+	"added_words":
+	[
+		"javascript"
+	],
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	"font_face": "Monaco",
+	"font_options":
+	[
+		"directwrite"
+	],
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"printf",
+		"td"
+	],
+	"line_numbers": true,
+	"spell_check": true,
+	"tab_size": 4,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

@@ -1,0 +1,28 @@
+{
+  "code_highlighting_style": "monokai",
+  "inline_css": {
+    "blockquote": "border-left: 10px solid #e7ecee; background-color:#f2f4f6; margin-left: 0px; padding-left: 1em; padding:1em; margin-top: 1em; margin-bottom: 1em;",
+    "html": "font-size: 30px;",
+    "body": "font-size: 30px; font-family:微軟正黑體; ",
+    "footnotes": "border-top: 1px solid #9AB39B; font-size: 80%;",
+    "h1": "margin-bottom: 1em; margin-top: 1.2em; font-size:2.25em; border-bottom:1px solid #eee;",
+    "h2": "font-size:1.75em; border-bottom:1px solid #eee;",
+    "h3": "font-size:1.5em",
+    "h4": "font-size:1.25em",
+    "h5": "font-size:1em",
+    "h6": "font-size:1em; color:#777",
+    "code": "color:#FFFFFF; font-family: monospace; font-size: 0.9em;",
+    "img": "max-width:100%;",
+    "hr": "color:#9AB39B;background-color:#9AB39B;height:1px;border:none;",
+    "inline-code": "color: #C7254E; font-family: monospace; padding: 0.1em 0.2em; margin: 0.1em; font-size: 95%; background-color: #F9F2F4; border-radius: 3px; border: 1px solid #f4e1e6;",
+    "pre": "color: #000000; font-family: monospace,monospace; font-size: 0.9em; white-space: pre-wrap; word-wrap: break-word; border: 1px solid #cccccc; border-radius: 3px; overflow: auto; padding: 6px 10px; margin-bottom: 10px;",
+    "sup": "color:#6D6D6D;font-size:1ex",
+    "table": "border-collapse: collapse; border-spacing: 0; margin: 1em;",
+    "td": "border: 1px solid #DDD; padding: 6px 13px;",
+    "th": "border: 1px solid #DDD; padding: 6px 13px;",
+    "tr:even": "border: 1px solid #DDD; padding: 6px 13px; background-color: #F8F8F8;",
+    "tr:odd": "border: 1px solid #DDD; padding: 6px 13px;"
+  },
+  "noteStoreUrl": ,
+  "token": 
+}
