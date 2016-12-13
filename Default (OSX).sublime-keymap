@@ -1,7 +1,20 @@
 [
-	{ "keys": ["super+e"], "command": "new_evernote_note", "args": {"template": "evernote_*.md"}},
+    { "keys": ["super+e"], "command": "new_evernote_note", "args": {"template": "evernote_*.md"}},
     { "keys": ["super+ctrl+o"], "command": "open_evernote_note" },
     { "keys": ["super+ctrl+s"], "command": "save_evernote_note", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}] },
     { "keys": ["super+ctrl+s"], "command": "send_to_evernote", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid", "operator": "equal", "operand": false}] },
-    { "keys": ["super+ctrl+w"], "command": "weekly_report"}
+    { "keys": ["super+ctrl+w"], "command": "weekly_report"},
+    { "keys": ["ctrl+alt+d"], "command": "add_date"},
+     // arrow keys to jkhl
+    { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+    { "keys": ["alt+n"], "command": "left_delete"},
+    { "keys": ["alt+;"], "command": "insert", "args": {"characters":"\n"}},
+    // other combinations that uses up down left right
+    { "keys": ["shift+alt+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+    { "keys": ["shift+alt+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+    { "keys": ["shift+alt+k"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+    { "keys": ["shift+alt+j"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
 ]
