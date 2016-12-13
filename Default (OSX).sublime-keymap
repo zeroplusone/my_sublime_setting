@@ -1,4 +1,5 @@
 [
+    // commnad reference : http://docs.sublimetext.info/en/latest/reference/commands.html?highlight=move
     { "keys": ["super+e"], "command": "new_evernote_note", "args": {"template": "evernote_*.md"}},
     { "keys": ["super+ctrl+o"], "command": "open_evernote_note" },
     { "keys": ["super+ctrl+s"], "command": "save_evernote_note", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}] },
